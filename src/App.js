@@ -1,11 +1,13 @@
-import Navbar from "./components/Navbar/Navbar";
-import Main from './components/Main/Main'
+import { Add, Footer, Info, Main, Navbar } from './components/index.js'
 
 function App() {
   return (
     <div>
       <Navbar />
       <Main />
+      <Info />
+      <Footer />
+      <Add />
     </div>
   );
 }
